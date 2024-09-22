@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "taguchi-face-recognition-resnet-v1-openvino-fp16-optimized"
+version = "1.0.0"
+description = "face recognition model from dlib-models converted to OpenVINO"
+authors = ["Mat'z"]
+license = "CC0 1.0 Universal"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openvino = "^2024.4.0"
+opencv-python = "^4.10.0.84"
+
+[tool.poetry.group.dev.dependencies]
+openvino = "^2024.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
