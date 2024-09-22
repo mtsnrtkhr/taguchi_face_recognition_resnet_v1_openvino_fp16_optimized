@@ -1,0 +1,2 @@
+# taguchi_face_recognition_resnet_v1_openvino_fp16_optimized
+face recognition model from dlib-models converted to OpenVINO
